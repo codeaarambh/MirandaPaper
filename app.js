@@ -22,6 +22,11 @@ function landing(){
        scale:1,
        duration:0.8
     })
+    time.from(".page2",{
+        opacity:0,
+        duration:2
+
+    })
 }
 
 landing();
