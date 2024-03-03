@@ -58,6 +58,18 @@ body {
   width: 30%;
   height: 100%;
 }
+::-webkit-scrollbar{
+  width: 5px;
+}
+::-webkit-scrollbar-track{
+  background-color: #591802;
+}
+::-webkit-scrollbar-thumb{
+  background-color: wheat;
+  border-radius: 50px;
+  border: 1px solid transparent;
+  background-clip: content-box;
+}
 .elem2 {
   padding: 20px 20px;
   width: 34%;

@@ -1,6 +1,6 @@
 
 const lenis = new Lenis({
-  duration: 1.2,
+  duration: 2.5,
   easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t))
 });
 
@@ -17,13 +17,15 @@ function landing() {
   time.to(".page1", {
       y: "-29vh",
       scale: 0.5,
-      duration: 0
+      duration: 0,
+    
   });
   
   time.to(".page1", {
       y: "30vh",
       duration: 1,
       delay: 1
+
   });
   
   time.to(".page1", {
