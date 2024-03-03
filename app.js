@@ -78,7 +78,7 @@ function landing(){
     })
 }
 
-landing();
-document.addEventListener('DOMContentLoaded', function() {
-    scroll.update();
-    });
+// landing();
+// document.addEventListener('DOMContentLoaded', function() {
+//     scroll.update();
+//     });
