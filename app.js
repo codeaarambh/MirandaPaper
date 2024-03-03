@@ -79,6 +79,6 @@ function landing(){
 }
 
 landing();
-// document.addEventListener('DOMContentLoaded', function() {
-//     scroll.update();
-//     });
+document.addEventListener('DOMContentLoaded', function() {
+    scroll.update();
+    });
